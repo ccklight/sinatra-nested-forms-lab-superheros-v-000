@@ -14,7 +14,7 @@ class App < Sinatra::Base
 
       @team_name = params[:team][:name]
       @team_motto = params[:team][:motto]
-      # @team_member = []
+
 
       @hero_name = []
       @hero_power = []
@@ -29,7 +29,6 @@ class App < Sinatra::Base
 
       erb :team
 
-# *Iterate over team members array in view in order to display on page*
     end
 
 end
